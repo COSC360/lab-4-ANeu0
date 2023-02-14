@@ -1,0 +1,143 @@
+﻿/*Base HTML Tags*/
+h1 {
+    font-size: 1.8em;
+}
+h2 {
+    font-size: 1.2em;
+}
+
+body {
+    font-size: 0.9em;
+    font-family: Tahoma, Helvetica, sans-serif;
+    margin:0;
+}
+
+header {
+    height: 45px;
+    font-size: 1.8em;
+    background-color: lightgrey;
+    white-space: nowrap;
+    border-bottom: .5em solid lightgrey;
+    margin: 0em 2.75em 0em 2.75em;
+}
+
+footer {
+    background-color: #474747;
+    color: lightgrey;
+    display: flex;
+    margin: 2em 0em 2em 0em;
+}
+
+footer:first-child{
+    border-top:none;
+}
+
+    footer div img {
+        padding: .2em .2em .2em .2em;
+    }
+
+article {
+    margin: 2em 0em 0em 4em;
+}
+
+figure {
+    justify-content: flex-start;
+    float: left;
+    position: relative;
+}
+
+figcaption {
+    opacity: 0.80;
+    position: absolute;
+    background-color: black;
+    width:150px;
+    color: white;
+    top:133px;
+    display:block;
+}
+
+article div{
+    clear:both;
+}
+
+/*ids */
+#right-sidebar {
+    padding: .5em 1em 1em 1em;
+    clear: both;
+    margin: 2em 0em 0em 5em;
+    float: left;
+    background-color: lightgrey;
+    justify-content: flex-start;
+    flex-direction: column;
+    float: right;
+    height: 600px;
+    overflow: auto;
+}
+
+#masthead {
+    display:block;
+    position: relative;
+}
+
+#center {
+    background-color: lightgrey;
+    justify-content: flex-end;
+    flex-direction: row;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 600px;
+    margin: 2em 5em 0em 5em;
+}
+    #center article {
+        
+    }
+
+#main {
+    display: flex;
+    
+}
+
+
+
+/*Classes*/
+
+.entry {
+    border-top: 3px solid #ff6a00;
+    width: 100%;
+    display: inline-flex;
+    margin: .3em .3em .3em .3em;
+}
+
+.overlayed {
+    float: left;
+    position: absolute;
+    left: 0px;
+}
+
+.linkbutton {
+    background-color: #ff6a00;
+    float: right;
+    margin: .3em 3em .3em .3em;
+    padding-block: .5em;
+    padding-left: .3em;
+    padding-right: .3em;
+    color: white;
+}
+
+.footer-related {
+    border-top: 2px solid #ff6a00;
+    float: left;
+    display: block;
+    padding: 0em 0em 2em 2em;
+    margin: 2em 0em 2em 2em;
+}
+
+.footer-section {
+    border-top: 2px solid #ff6a00;
+    display:  block;
+    padding: 0em 0em 2em 2em;
+    margin: 2em 4em 4em 2em;
+}
